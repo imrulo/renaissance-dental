@@ -1,0 +1,16 @@
+---
+description: Consulta Modern Web Guidance antes de HTML, CSS o JavaScript de cliente
+alwaysApply: true
+---
+
+Antes de escribir o cambiar HTML, CSS o JavaScript de cliente (UI, layout, animación, formularios, accesibilidad, rendimiento que ve la persona, fechas, sanitización), lee y sigue `.agents/skills/modern-web-guidance/SKILL.md`.
+
+Busca y recupera con `npx -y modern-web-guidance@latest` antes de inventar el patrón o sumar una dependencia. Las consultas van en inglés, de 2 a 5 palabras, una capacidad por búsqueda.
+
+No aplica a backend, infraestructura, CI ni cambios triviales de tooling.
+
+Soporte de navegadores: Baseline Widely available. No crees `.mwgrc` y no actives Origin Trials ni features de un solo motor. Si el proyecto ya tiene `.mwgrc`, respétalo.
+
+Adapta la guía vanilla al framework del repo sin quitar la API de plataforma. Al entregar el cambio, cierra con la sección `### Modern Web Guidance` que pide el skill.
+
+Extensiones de Chrome: `.agents/skills/chrome-extensions/SKILL.md`.
